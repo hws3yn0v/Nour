@@ -340,4 +340,58 @@
   font-size: 18px;
   font-weight: 500;
   opacity: 0;
+}
+
+.photoshared {
+  display: flex;
+  gap: 15px;
+}
+
+.textdivz4 > h2 {
+  position: relative;
+}
+.textdivz4 > h2::before {
+  content: "PACKAGE";
+  z-index: -1;
+  position: absolute;
+  left: 36%;
+  top: -43px;
+  font-size: 80px;
+  opacity: 0.1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Travel-Ticket .card-body {
+  border: 1px solid rgb(230, 228, 228);
+  padding-left: 30px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.Travel-Ticket .card-body .btn {
+  position: absolute;
+  top: -27px;
+  right: 14px;
+  border-radius: 39px;
+  background-color: #6168FF;
+  font-size: 20px;
+}
+.Travel-Ticket .btn > span {
+  padding: 12px;
+  font-size: 17px;
+}
+.Travel-Ticket .card:hover .btn {
+  transition: 0.5;
+  background-color: #262626;
+  border: 1px solid #262626;
+}
+
+.card-text > i {
+  color: gold;
+  font-size: 15px;
+}
+
+.location {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
