@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  
+
   .top-left>a>img {
     width: 55%;
     padding: 4px;
@@ -26,27 +26,31 @@
     padding: 0px 9px;
   }
 }
-.main{
+
+.main {
   z-index: -1;
 }
-.navbar-top{
-  top:0;
+
+.navbar-top {
+  top: 0;
   position: fixed;
   width: 100%;
   z-index: 2;
 
 }
-.navbar-bottom{
+
+.navbar-bottom {
   top: 55px;
   position: fixed;
   width: 100%;
   z-index: 2;
-  
-  
-  }
-  .travel{
-    padding-top: 150px;
-  }
+
+
+}
+
+.travel {
+  padding-top: 150px;
+}
 
 .navbar-bottom {
   .navbar-brand>img {
@@ -104,7 +108,8 @@
     color: #6168FF;
   }
 }
-.navbar{
+
+.navbar {
   background-color: #fff;
 }
 
@@ -119,7 +124,7 @@
 
 .text-top {
   color: #ffffff;
-    padding-top: 5rem;
+  padding-top: 5rem;
   font-size: 20px;
   text-align: center;
 }
@@ -136,14 +141,15 @@
   text-align: center;
   padding-top: 2rem;
 }
-.btn-change{
-   background-color: #6168FF;
-   color: #ffff;
-   font-family: Arial, Helvetica, sans-serif;
-   transition: .6s;
+
+.btn-change {
+  background-color: #6168FF;
+  color: #ffff;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: .6s;
 }
 
-.btn-change:hover{
+.btn-change:hover {
   background-color: transparent;
   border: 1px solid;
   color: #ffff;
@@ -177,164 +183,212 @@
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
-.card{
+
+.card {
   border: none;
 }
-.card-header{
-    border: none;
+
+.card-header {
+  border: none;
   background-color: transparent;
 }
-.card-header>i{
+
+.card-header>i {
   font-size: 35px;
 }
 
-.fa-child-reaching{
+.fa-child-reaching {
   color: #6168FF;
 }
-.fa-location-dot{
+
+.fa-location-dot {
   color: #6168FF;
 }
-.fa-star{
+
+.fa-star {
   color: #6168FF;
 }
-.natureimg{
+
+.natureimg {
   background-image: url(https://getmasum.com/html-preview/nour/assets/img/choose.jpg);
-    height: 380px;
-   background-size: 500px;
-   background-size: cover;
-   box-shadow: 4px 0px 14px;
-   position: relative;
+  height: 380px;
+  background-size: 500px;
+  background-size: cover;
+  box-shadow: 4px 0px 14px;
+  position: relative;
 }
-.ichange{
+
+.ichange {
   font-size: 70px;
   position: absolute;
-    top: 50%;
-    left: 50%;
-    color: #6168FF;
-    transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  color: #6168FF;
+  transform: translate(-50%, -50%);
 }
 
 
 
-.card2{
-  border-top-right-radius:8px;
-  border-top-left-radius:8px;
+.card2 {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
   width: 27rem;
   padding: 7px 10px;
- 
-  
-   
 
-  .card-img-top{
+
+
+
+  .card-img-top {
     width: 100%;
     height: 350px;
   }
- 
-  .card-text{
+
+  .card-text {
     display: flex;
     justify-content: space-between;
     padding-top: 6px;
-     font-weight: bold;
-     font-size: 20px;
+    font-weight: bold;
+    font-size: 20px;
   }
- .card-block{
-  border: 1px solid rgb(222, 220, 220);
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  padding: 11px;
- }
- .card-text>span{
-     font-size: 15px;
-     color: rgb(196, 195, 195);
-     font-family: sans-serif;
- }
+
+  .card-block {
+    border: 1px solid rgb(222, 220, 220);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 11px;
+  }
+
+  .card-text>span {
+    font-size: 15px;
+    color: rgb(196, 195, 195);
+    font-family: sans-serif;
+  }
 }
 
 
-.i{
+.i {
   font-size: 44px;
   padding-left: 15px;
- 
+
 }
-.i2{
+
+.i2 {
   font-size: 44px;
   padding-left: 50px;
 
 }
-.s{
+
+.s {
   border: 1px solid rgb(248, 245, 245);
   border-radius: 5px;
   background-color: #F4F9FF;
-    
+
 }
-.t :first-child{
+
+.t :first-child {
   font-weight: 500;
-   color: #141313;
+  color: #141313;
   font-size: 25px;
   font-family: sans-serif;
- 
-}
-.textdivz>h2{
-  position: relative;
-  &::before{
-     content: 'DESTINATIONS';
-     z-index: -1;
-     position:absolute;
-     left: 32%;
-     top: -40px;
-     font-size: 70px;
-     opacity: 0.1;
-  }
 
 }
-.textdivz2>h2{
-  position: relative;
-  &::before{
-     content: 'SERVICES';
-     z-index: -1;
-     position:absolute;
-     left: 34%;
-     top: -45px;
-     font-size: 80px;
-     opacity: 0.1;
-     font-family: Arial, Helvetica, sans-serif;
-  }
 
-}
-.textdivz3>h2{
+.textdivz>h2 {
   position: relative;
-  &::before{
-     content: 'GALLERY';
-     z-index: -1;
-     position:absolute;
-     left: 36%;
-     top: -43px;
-     font-size: 80px;
-     opacity: 0.1;
-     font-family: Arial, Helvetica, sans-serif;
+
+  &::before {
+    content: 'DESTINATIONS';
+    z-index: -1;
+    position: absolute;
+    left: 32%;
+    top: -40px;
+    font-size: 70px;
+    opacity: 0.1;
   }
 
 }
 
+.textdivz2>h2 {
+  position: relative;
+
+  &::before {
+    content: 'SERVICES';
+    z-index: -1;
+    position: absolute;
+    left: 34%;
+    top: -45px;
+    font-size: 80px;
+    opacity: 0.1;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+}
+
+.textdivz3>h2 {
+  position: relative;
+
+  &::before {
+    content: 'GALLERY';
+    z-index: -1;
+    position: absolute;
+    left: 36%;
+    top: -43px;
+    font-size: 80px;
+    opacity: 0.1;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+}
 
 
-  
+#gallery {
+  padding-bottom: 100px;
 
+  .eifel {
+    position: relative;
 
-  
+    img {
+      width: 100%;
+    }
 
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: #6168FF;
+      opacity: 0;
+    }
 
+    &:hover:before {
+      opacity: .7;
+    }
 
+    &:hover h3 {
+      left: 50%;
+      bottom: 40%;
+      transform: translate(-50%, -50%);
 
+      opacity: 1;
+      transition: 1s;
+    }
 
+    h3 {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      opacity: 0;
 
-  
+    }
 
-
-
-
-
+  }
+}
