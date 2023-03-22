@@ -29,6 +29,11 @@
 
 .main {
   z-index: -1;
+
+}
+.html,.body{
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 .navbar-top {
@@ -156,6 +161,7 @@
 }
 
 .gearicon {
+  z-index: 1;
   width: 50px;
   height: 50px;
   border-top-right-radius: 5px;
@@ -405,7 +411,7 @@
     content: 'PACKAGE';
     z-index: -1;
     position: absolute;
-    left: 36%;
+    left: 35.5%;
     top: -43px;
     font-size: 80px;
     opacity: 0.1;
@@ -415,8 +421,6 @@
 }
 
 .Travel-Ticket {
-
-
   .card-body {
     border: 1px solid rgb(230, 228, 228);
     border-bottom-left-radius: 4px;
@@ -429,15 +433,11 @@
       border-radius: 39px;
       background-color: #6168FF;
       font-size: 20px;
-
-      
     }
-
-
-
   }
-  .btn>span{
-    padding:12px;
+
+  .btn>span {
+    padding: 12px;
     font-size: 17px;
   }
 
@@ -450,9 +450,6 @@
     }
 
   }
-
-
-
 }
 
 .card-text>i {
@@ -466,23 +463,181 @@
   font-weight: 600;
   font-size: 20px;
 }
-.partner{
-  .imagediv{
+
+.partner {
+  z-index: -1;
+  .imagediv {
     background-image: url(https://getmasum.com/html-preview/nour/assets/img/bg/client-bg.png);
     position: relative;
     padding: 50px 30px;
     background-color: #6168FF;
   }
- 
- 
-    
-    .box>img{
-      width: 100%;
-      border-radius: 4px;
-   
-     }
- 
- 
+
+  .box>img {
+    width: 100%;
+    border-radius: 4px;
+
+  }
 }
 
+.textdivz5>h2 {
+  position: relative;
 
+  &::before {
+    content: 'TESTIMONIALS';
+    z-index: -1;
+    position: absolute;
+    left: 27.5%;
+    top: -43px;
+    font-size: 80px;
+    opacity: 0.1;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+}
+
+.customers {
+  .card {
+    background-color: #F4F9FF;
+  padding: 20px;
+  }
+  img {
+    border-radius: 90px;
+    width: 25%;
+  }
+  .cardtext>:first-child{
+    padding: 30px 6px;
+    font-family: sans-serif;
+
+  }
+ 
+}
+.textdivz6>h2 {
+  position: relative;
+
+  &::before {
+    content: 'BLOG';
+    z-index: -1;
+    position: absolute;
+    left: 41%;
+    top: -43px;
+    font-size: 80px;
+    opacity: 0.1;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+}
+.blog{
+  .card-body{
+    border: 1px solid rgb(225, 224, 224);
+    padding: 30px;
+  }
+  .text{
+     font-weight: 600;
+     padding-right: 4px;
+     font-family:Arial, Helvetica, sans-serif
+  }
+  .text2{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  
+}
+.textdivz7>h2 {
+  position: relative;
+
+  &::before {
+    content: 'CONTACT';
+    z-index: -1;
+    position: absolute;
+    left: 35%;
+    top: -43px;
+    font-size: 80px;
+    opacity: 0.1;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+}
+#register{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .registerlabel{
+    background-color: #F4F9FF;
+    width: 55%;
+    padding: 33px 5px;
+    .textinput{
+      padding: 10px 23px;
+      border: none;
+      border-radius: 5px;
+      &:focus{
+        outline: 1px solid #6168FF;
+      }
+    }
+    .emailinput{
+      padding: 10px 23px;
+      border:none;
+      border-radius: 5px;
+      &:focus{
+        outline: 1px solid #6168FF;
+      }
+    }
+    .numberinput{
+      padding: 10px 23px;
+      border: none;
+      border-radius: 5px;
+      &:focus{
+        outline: 1px solid #6168FF;
+      }
+    }
+     .subjecttext{
+      padding: 10px 20px;
+      width: 99.6%;
+      border: none;
+      border-radius: 5px;
+      &:focus{
+        outline: 1px solid #6168FF;
+
+      }
+     }
+    .textarea{
+       width:99.6%;
+          padding: 140px 0px;
+            padding-left: 30px;
+            padding-top: 30px;
+            border: none;
+            border-radius: 5px;
+            &:focus{
+              outline: 1px solid #6168FF;
+            }
+           
+    }
+  
+    
+
+  }
+  .button{
+    border: none;
+    border-radius: 5px;
+    background-color: #6168FF;
+    span{
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 20px 10px;
+      font-size: 14px;
+    }
+  }
+}
+footer{
+
+
+  
+    
+.footer {
+    padding: 250px 0 40px;
+    background-color: #00102A;
+    color: #fff;
+    clip-path: polygon(0 250px, 100% 0, 100% 100%, 0% 100%);
+}
+  
+}

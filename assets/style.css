@@ -27,6 +27,11 @@
   z-index: -1;
 }
 
+.html, .body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 .navbar-top {
   top: 0;
   position: fixed;
@@ -136,6 +141,7 @@
 }
 
 .gearicon {
+  z-index: 1;
   width: 50px;
   height: 50px;
   border-top-right-radius: 5px;
@@ -354,7 +360,7 @@
   content: "PACKAGE";
   z-index: -1;
   position: absolute;
-  left: 36%;
+  left: 35.5%;
   top: -43px;
   font-size: 80px;
   opacity: 0.1;
@@ -395,6 +401,9 @@
   font-size: 20px;
 }
 
+.partner {
+  z-index: -1;
+}
 .partner .imagediv {
   background-image: url(https://getmasum.com/html-preview/nour/assets/img/bg/client-bg.png);
   position: relative;
@@ -404,4 +413,146 @@
 .partner .box > img {
   width: 100%;
   border-radius: 4px;
+}
+
+.textdivz5 > h2 {
+  position: relative;
+}
+.textdivz5 > h2::before {
+  content: "TESTIMONIALS";
+  z-index: -1;
+  position: absolute;
+  left: 27.5%;
+  top: -43px;
+  font-size: 80px;
+  opacity: 0.1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.customers .card {
+  background-color: #F4F9FF;
+  padding: 20px;
+}
+.customers img {
+  border-radius: 90px;
+  width: 25%;
+}
+.customers .cardtext > :first-child {
+  padding: 30px 6px;
+  font-family: sans-serif;
+}
+
+.textdivz6 > h2 {
+  position: relative;
+}
+.textdivz6 > h2::before {
+  content: "BLOG";
+  z-index: -1;
+  position: absolute;
+  left: 41%;
+  top: -43px;
+  font-size: 80px;
+  opacity: 0.1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog .card-body {
+  border: 1px solid rgb(225, 224, 224);
+  padding: 30px;
+}
+.blog .text {
+  font-weight: 600;
+  padding-right: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.blog .text2 {
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.textdivz7 > h2 {
+  position: relative;
+}
+.textdivz7 > h2::before {
+  content: "CONTACT";
+  z-index: -1;
+  position: absolute;
+  left: 35%;
+  top: -43px;
+  font-size: 80px;
+  opacity: 0.1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#register .registerlabel {
+  background-color: #F4F9FF;
+  width: 55%;
+  padding: 33px 5px;
+}
+#register .registerlabel .textinput {
+  padding: 10px 23px;
+  border: none;
+  border-radius: 5px;
+}
+#register .registerlabel .textinput:focus {
+  outline: 1px solid #6168FF;
+}
+#register .registerlabel .emailinput {
+  padding: 10px 23px;
+  border: none;
+  border-radius: 5px;
+}
+#register .registerlabel .emailinput:focus {
+  outline: 1px solid #6168FF;
+}
+#register .registerlabel .numberinput {
+  padding: 10px 23px;
+  border: none;
+  border-radius: 5px;
+}
+#register .registerlabel .numberinput:focus {
+  outline: 1px solid #6168FF;
+}
+#register .registerlabel .subjecttext {
+  padding: 10px 20px;
+  width: 99.6%;
+  border: none;
+  border-radius: 5px;
+}
+#register .registerlabel .subjecttext:focus {
+  outline: 1px solid #6168FF;
+}
+#register .registerlabel .textarea {
+  width: 99.6%;
+  padding: 140px 0px;
+  padding-left: 30px;
+  padding-top: 30px;
+  border: none;
+  border-radius: 5px;
+}
+#register .registerlabel .textarea:focus {
+  outline: 1px solid #6168FF;
+}
+#register .button {
+  border: none;
+  border-radius: 5px;
+  background-color: #6168FF;
+}
+#register .button span {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 10px;
+  font-size: 14px;
+}
+
+footer .footer {
+  padding: 250px 0 40px;
+  background-color: #00102A;
+  color: #fff;
+  -webkit-clip-path: polygon(0 250px, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 250px, 100% 0, 100% 100%, 0% 100%);
 }/*# sourceMappingURL=style.css.map */
