@@ -27,11 +27,6 @@
   z-index: -1;
 }
 
-.html, .body {
-  overflow-x: hidden;
-  max-width: 100%;
-}
-
 .navbar-top {
   top: 0;
   position: fixed;
@@ -550,9 +545,68 @@
 }
 
 footer .footer {
-  padding: 250px 0 40px;
+  padding: 280px 0 40px;
   background-color: #00102A;
   color: #fff;
   -webkit-clip-path: polygon(0 250px, 100% 0, 100% 100%, 0% 100%);
           clip-path: polygon(0 250px, 100% 0, 100% 100%, 0% 100%);
+}
+footer .footer .logopart {
+  margin-bottom: 20px;
+}
+footer .logopart > img {
+  width: 50%;
+  padding-top: 20px;
+}
+footer .footerpart1 {
+  padding-left: 12px;
+  padding-top: 20px;
+}
+footer .footerpart1 a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .footertext :nth-child(1) {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+footer .footertext {
+  padding: 35px 0px;
+}
+footer .footertext a {
+  text-decoration: none;
+  color: rgb(231, 230, 230);
+  font-size: 14px;
+}
+footer .footertext a:hover {
+  color: #6168FF;
+  transition: 0.5s;
+}
+footer .subscribefooter {
+  padding: 10px 35px;
+  border: none;
+  border-radius: 10px;
+}
+footer .btn {
+  padding: 18px 40px;
+  color: rgb(231, 230, 230);
+  border: none;
+  background-color: #6168FF;
+}
+footer .btn .btn > span {
+  padding: 5px;
+  font-family: sans-serif;
+}
+footer .btn:hover {
+  background-color: #fff;
+  color: #141313;
+}
+
+.borderbottom {
+  border-bottom: 1px solid rgb(108, 107, 107);
+}
+
+.links a {
+  margin: 0px 10px;
+  padding-left: 10px;
 }/*# sourceMappingURL=style.css.map */
